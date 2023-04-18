@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+header{
+  width: auto;
+  height: 60px;
+  background-color: wheat;
+
+}
+.hea{
+  display: inline-block;
+}
+.fab{
+  margin-left: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  padding-right: 5px;
+  display: inline-block;
+}
+.navbar{
+  margin-top: 0;
+}
+.container-fluid{
+  font-family: 'Times New Roman', Times, serif;
+}
+.card1{
+
+  margin: auto;
+  display: flex;
+}
+.card:hover{
+  color: aquamarine;
+  background-color: antiquewhite;
+  animation-duration: 0.5s;
+}
+.card{
+  
+  margin-right: 15px;
+}
+.btn3{
+
+  padding: 7px;
+  border-radius: 0;
+  border: 2px solid rgb(247, 244, 244);
+  text-decoration: none;
+  color: white;
+}
+.btn btn-primary{
+background-color: none;
+border-radius:30% 2px black ;
+  }
+  .btn4{
+    margin-top: 20px;
+    width: 150px;
+    padding: 7px;
+    border-radius: 0;
+    border: 2px solid rgb(14, 14, 14);
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+  }
+  .news {
+    background-color: rgb(41, 41, 139);
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background:white ;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color:white;
+    margin-top:20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.text{
+  text-decoration: none;
+  color: white;
+}
+.left{
+  margin-left: 20px;
+  float: left;
+}
+.right{
+  margin-right: 20px;
+
+  float: right;
+}
+.img5{
+margin-left: 100px;
+margin-bottom: 50px;
+}
+.col-lg-4{
+  margin-top: 20px;
+}
+section .row .col-lg-3{
+  border-radius: 1%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section .row .col-lg-3 .text1{
+  margin-top: 200px;
+ text-align: center;
+}
+.btn5{
+border: 2px solid rgb(240, 237, 237);
+border-radius: 30px;
+width: 250px;
+background: none;
+color: white;
+margin-top: 20px;
+}
+section .row .col-lg-8 form{
+  text-align: left;
+}
+section .row .col-lg-8 form input{
+  width: 600px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.btn6{
+  border-color: darkblue;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: darkblue;
+}
+section .row{
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+.btn7{
+  font-size: 1.5rem;
+  text-align: center;
+  color: darkblue;
+  border: 1px solid rgb(70, 68, 68);
+  width: 300px;
+  height: 90px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 2%;
+}
+.btn8{
+
+  border: 1px solid rgb(15, 15, 15);
+  width: 180px;
+  height: 40px;
+  background: none;
+  color: darkblue;
+  margin-top: 20px;
+  }
+  .btn5:hover{
+    color: black;
+    background-color: white;
+  }
